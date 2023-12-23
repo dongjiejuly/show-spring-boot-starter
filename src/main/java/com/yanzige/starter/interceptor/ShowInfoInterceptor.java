@@ -34,9 +34,9 @@ public class ShowInfoInterceptor implements HandlerInterceptor {
         if (showProperties.isShow()) {
             String info = showProperties.getInfo();
             if (StringUtils.hasText(info)) {
-                System.out.println(info);
+                System.out.println("通过Starter实现："+info);
             } else {
-                System.out.println("hello java");
+                System.out.println("配置文件没有配置info信息：默然打印hello java");
             }
         }
         return true;
