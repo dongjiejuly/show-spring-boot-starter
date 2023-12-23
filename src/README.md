@@ -1,5 +1,12 @@
 # starter开发说明
 ## 说明
+该Readme是一个关于如何制作starter项目的说明，该工程有详细的步骤说明，该工程是一个完整的starter工程，要使用该starter只需要在得的项目引入pom即可
+需要引入pom的maven坐标，如有版本version变动请自行修改
+<dependency>
+    <groupId>org.yanzige.starter</groupId>
+    <artifactId>show-spring-boot-starter</artifactId>
+    <version>1.0-SNAPSHOT</version>
+</dependency>
 
 ## 步骤
 ### 编写配置文件类，用于读取配置文件的信息
