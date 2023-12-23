@@ -1,0 +1,5 @@
+com/yanzige/starter/prop/ShowProperties.class
+com/yanzige/starter/config/ShowInfoAutoConfig.class
+META-INF/spring-configuration-metadata.json
+com/yanzige/starter/config/WebConfig.class
+com/yanzige/starter/interceptor/ShowInfoInterceptor.class

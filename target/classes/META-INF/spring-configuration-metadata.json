@@ -1,0 +1,25 @@
+{
+  "groups": [
+    {
+      "name": "mvc.interceptor",
+      "type": "com.yanzige.starter.prop.ShowProperties",
+      "sourceType": "com.yanzige.starter.prop.ShowProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "mvc.interceptor.info",
+      "type": "java.lang.String",
+      "description": "配置文件的配置项 show",
+      "sourceType": "com.yanzige.starter.prop.ShowProperties"
+    },
+    {
+      "name": "mvc.interceptor.show",
+      "type": "java.lang.Boolean",
+      "description": "配置文件的配置项 show",
+      "sourceType": "com.yanzige.starter.prop.ShowProperties",
+      "defaultValue": true
+    }
+  ],
+  "hints": []
+}
