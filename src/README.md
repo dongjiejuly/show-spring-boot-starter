@@ -33,3 +33,5 @@
 3、编写拦截器的配置类 WebConfig，该配置类需要将需要使用到的bean实例注入到容器，并且将自定义拦截器添加到Spring的拦截器中
 4、因为当前编写Starter功能需要提供给其他项目使用，所以当前Starter中的所有组件需要被正确的扫描到，所以需要需要配置正确的扫描路径，并且需要配置相应starter启动的条件
 5、在其他项目只引用pom依赖 + 在配置文件中添加相应的配置以开启starter功能
+
+注：参考总结来源于网络 https://www.bilibili.com/video/BV18X4y1z73R/?spm_id_from=333.337.search-card.all.click&vd_source=5f9e6b35dbb163280676b2a0be0142e9
